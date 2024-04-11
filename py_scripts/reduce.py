@@ -275,7 +275,10 @@ def lines(xmin=0, xmax=10000, labely=-0.2, legend=False):
     h_gamma = 4340.472
     h_delta = 4101.734
     h_epsilon = 3970.075
-    magnesium = 5183.604
+    h_zeta = 3835.397
+    magnesium_1 = 5167.3216
+    magnesium_2 = 5172.684
+    magnesium_3 = 5183.604
     O_II = 3911.957
     He_II = 5411.2
     He_II2 = 4685.7
@@ -288,7 +291,9 @@ def lines(xmin=0, xmax=10000, labely=-0.2, legend=False):
     lines.append([5889.95, "Na", 'g'])
     lines.append([5895.92, "Na", 'g'])
     # lines.append([5006.843, "O III", 'r'])
-    lines.append([magnesium, "Magnesium", 'r'])
+    lines.append([magnesium_1, "Magnesium", 'r'])
+    lines.append([magnesium_2, "Magnesium", 'r'])
+    lines.append([magnesium_3, "Magnesium", 'r'])
     lines.append([h_beta, "H-beta", 'b'])
     lines.append([He_II3, "He II3", 'c'])
     lines.append([h_gamma, "H-gamma", 'b'])
